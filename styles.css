@@ -1,0 +1,212 @@
+body{
+    margin: 0px;
+    text-align: center;
+    font-family: monospace;
+    font-size: 15px;
+}
+
+@font-face {
+    font-family: Valorant;
+    src: url(images/Valorant\ Font.ttf);
+  }
+
+  .btn {
+    --s: 40px;   /* the size of the image */
+    --b: 1px;     /* the border thickness*/
+    --g: 2px;    /* the gap */
+    --c: #346f94;
+    width: var(--s);
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0px;
+    font-family: Courier New;
+    color: #ffffff;
+    font-size: 15px;
+    background: #fc6a6a;
+    padding: 10px 15px 10px 15px;
+    border: solid #f74848 1px;
+    outline-offset: calc(var(--s)/-2);
+    cursor: pointer;
+    transition: 0.4s;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    outline: var(--b) solid var(--c);
+    outline-offset: var(--g);
+    background: #102a3a;
+    text-decoration: none;
+  }
+
+.bottom_headers{
+    margin: 10px;
+}
+    
+#gamer{
+    color: red;
+    font-size: 25px;
+}
+
+h2{
+    color: red;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight:500;
+}
+
+h1{
+    letter-spacing: 10px;
+    font-size: 100px;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+.out_hr {
+    background-color: transparent;
+    width: 60px;
+    height: 3px;
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #FF6464;
+    border-radius: 0px; 
+    border-width: 10px;
+    margin: auto;
+}
+
+hr {
+    background-color: transparent;
+    width: 250px;
+    height: 2px;
+    border-style: none;
+    border-top-style: solid;
+    border-color:white;
+    border-radius: 0px; 
+    border-width: 3px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.First_Div{
+    color: #EEEEEE;
+    padding: 230px;
+    font-family: Valorant, 'Yatra One', cursive;
+    font-size: 1.9rem;    
+    background-size: cover;
+}
+
+.Sec_Div{
+    /* background-color: #6F38C5; */
+    /* background-image: linear-gradient(45deg,rgba(245,70,66, 0.75),rgba(8,83,156, 0.75)),url(images/Gaming.jpg); */
+    /* font-family: 'Roboto', sans-serif; */
+    color: black;
+    display:flow-root;
+}
+
+.game{
+    width: 50%;
+    display:inline-block;
+    margin: 20px;
+    text-align: left;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.bgmi{
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    /* position: absolute; */
+     /* display: inline-block; */
+     float: left;
+     margin-right: 30px;
+}
+
+.Valorant{
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    /* position: absolute; */
+     /* display: inline-block; */
+     float: right;
+     margin-left: 30px;
+}
+
+.Agents{
+    padding: 50px;
+    background-image: url(images/Agent_background.jpg);
+    background-size: cover;
+    color: white;
+}
+.Journey{
+    width: 300px;
+    background-color: white;
+    border-radius: 15px;
+    /* position: absolute; */
+     display: block;
+     /* margin-top: 15px; */
+     margin-left: auto;
+     margin-right: auto; 
+}
+
+.head_agent{
+    font-size: 30px;
+    margin-top: 0px;
+}
+
+.diff_agents{
+    text-align:left;
+    display:inline-block;
+    margin: 20px;
+    border-radius: 15px;
+    border-color: white;
+    border-width: 1px;
+    background-image: linear-gradient(45deg,rgba(80, 79, 79, 0.199),rgba(212, 227, 243, 0.116));
+    backdrop-filter: blur(5px);
+    box-shadow: .5px .5px 3px white;
+}
+
+.Agent_Desc{
+    margin-left: 20px;
+}
+
+td{
+    padding-left: 20px;
+}
+
+.bottom_headers{
+    color:#102a3a;
+}
+
+.bottom-container{
+    background-color: #151515;
+    margin: 0px;
+    display:flow-root;
+    padding: 20px 0px 5px;
+}
+
+.footer-link{
+    margin: 10px 20px;
+    color: rgba(255, 255, 255, 0.416);
+    text-decoration: none;
+}
+
+.footer-link:hover{
+    color:white;
+}
+
+.copyright{
+    color: white;
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.vid{
+        position:absolute;
+        /* overflow: hidden;  */
+        right: 0;
+        bottom: 0;
+        min-width: 100%;
+        min-height: 100%;
+        z-index: -1;
+}
